@@ -455,6 +455,7 @@ $year = date("Y");
     <li><a href="#about">About</a></li>
     <li><a href="#motivation">Why HKU</a></li>
     <li><a href="#passions">Passions</a></li>
+    <li><a href="fashion.php">Fashion</a></li>
     <li><a href="#music">Music</a></li>
     <li><a href="demo.php">Demos</a></li>
     <li><a href="#contact">Contact</a></li>
