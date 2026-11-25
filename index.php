@@ -40,6 +40,12 @@ $tracks = [
         "tags"        => ["TODO — genre"],
         "link"        => "TODO — SoundCloud / YouTube / Spotify link",
     ],
+    [
+        "title"       => "TODO — Track 3",
+        "description" => "Genre, vibe and what you did on it, in one or two sentences.",
+        "tags"        => ["TODO — genre"],
+        "link"        => "TODO — SoundCloud / YouTube / Spotify link",
+    ],
 ];
 
 $marquee_items = ["JCL", "Music", "Fashion", "Beats", "Sound design", "Tech"];
