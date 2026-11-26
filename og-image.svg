@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <rect width="1200" height="630" fill="#0a0a0a"/>
-  <rect x="10" y="10" width="1180" height="610" fill="none" stroke="#a020f0" stroke-width="6"/>
   <text x="600" y="370" font-family="Arial, Helvetica, sans-serif" font-size="300" font-weight="bold" text-anchor="middle" fill="none" stroke="#f4f4f2" stroke-width="3" letter-spacing="12">JCL</text>
   <text x="600" y="500" font-family="'Courier New', monospace" font-size="30" text-anchor="middle" fill="#7d7d7d" letter-spacing="10">MUSIC PRODUCER &amp; DEVELOPER</text>
 </svg>
