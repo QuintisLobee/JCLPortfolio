@@ -89,7 +89,7 @@ $year = date("Y");
       backdrop-filter: blur(12px);
     }
     .nav-logo { display: flex; align-items: center; gap: 0.6rem; font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; }
-    .nav-logo-img { height: 26px; width: auto; display: block; }
+    .nav-logo-img { height: 34px; width: auto; display: block; }
     .nav-back {
       font-family: var(--mono);
       font-size: 0.72rem;

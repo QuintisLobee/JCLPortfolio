@@ -125,7 +125,7 @@ $year = date("Y");
       letter-spacing: 0.2em;
       text-transform: uppercase;
     }
-    .nav-logo-img { height: 26px; width: auto; display: block; }
+    .nav-logo-img { height: 34px; width: auto; display: block; }
 
     .nav-links {
       display: flex;
