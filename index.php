@@ -61,7 +61,7 @@ $year = date("Y");
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Portfolio of <?= htmlspecialchars($name) ?>" />
   <meta name="theme-color" content="#0a0a0a" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="<?= htmlspecialchars($name) ?> — Music Producer & Developer" />
   <meta property="og:description" content="<?= htmlspecialchars($tagline) ?>" />
@@ -117,11 +117,15 @@ $year = date("Y");
     }
 
     .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
       font-family: var(--mono);
       font-size: 0.8rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
     }
+    .nav-logo-img { height: 26px; width: auto; display: block; }
 
     .nav-links {
       display: flex;
@@ -466,7 +470,7 @@ $year = date("Y");
 
 <!-- ── Navigation ─────────────────────────────────────────────── -->
 <nav>
-  <span class="nav-logo"><?= htmlspecialchars($name) ?></span>
+  <a class="nav-logo" href="index.php"><img class="nav-logo-img" src="logo.svg" alt="JCL"></a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#motivation">Why HKU</a></li>

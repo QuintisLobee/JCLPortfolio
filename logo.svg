@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a0a"/>
+  <rect x="6" y="6" width="500" height="500" fill="none" stroke="#a020f0" stroke-width="6"/>
+  <text x="256" y="302" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="bold" text-anchor="middle" fill="#f4f4f2" letter-spacing="6">JCL</text>
+</svg>

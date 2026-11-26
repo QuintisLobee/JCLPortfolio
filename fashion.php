@@ -40,7 +40,7 @@ $year = date("Y");
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Favorite outfit combinations by <?= htmlspecialchars($name) ?>" />
   <meta name="theme-color" content="#0a0a0a" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="<?= htmlspecialchars($name) ?> — Fashion" />
   <meta property="og:description" content="Favorite outfit combinations — 3 fits a month." />
@@ -88,7 +88,8 @@ $year = date("Y");
       background: rgba(10, 10, 10, 0.8);
       backdrop-filter: blur(12px);
     }
-    .nav-logo { font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; }
+    .nav-logo { display: flex; align-items: center; gap: 0.6rem; font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; }
+    .nav-logo-img { height: 26px; width: auto; display: block; }
     .nav-back {
       font-family: var(--mono);
       font-size: 0.72rem;
@@ -235,7 +236,7 @@ $year = date("Y");
 <body>
 
 <nav>
-  <span class="nav-logo"><?= htmlspecialchars($name) ?> — fashion</span>
+  <a class="nav-logo" href="index.php"><img class="nav-logo-img" src="logo.svg" alt="JCL"><span>— fashion</span></a>
   <a class="nav-back" href="index.php">← back to site</a>
 </nav>
 
