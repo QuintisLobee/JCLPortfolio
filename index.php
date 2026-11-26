@@ -6,6 +6,8 @@ $tagline  = "I produce music and build tech around it — my portfolio for HKU M
 $email    = "quintislobee@gmail.com";
 $linkedin = "https://www.linkedin.com/in/quintis-lobée-9b8528250";
 $instagram = "https://www.instagram.com/quintisjcl/";
+// TODO — set this to your public URL after hosting, e.g. https://yourname.infinityfreeapp.com
+$site_url  = "http://localhost:8000";
 
 $about = "I'm Quintis — aka JCL — a music producer at heart. I spend my days producing tracks, designing sounds and mixing, and I love the technology behind music: DAWs, synths and code. Next to that I design and build for the web, which feeds straight into the tech side of things. That combination is exactly why I'm applying to HKU Music & Technology — and why I don't mind any task, as long as I get to create: new tracks, new sounds, new systems.";
 
@@ -58,6 +60,14 @@ $year = date("Y");
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Portfolio of <?= htmlspecialchars($name) ?>" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<?= htmlspecialchars($name) ?> — Music Producer & Developer" />
+  <meta property="og:description" content="<?= htmlspecialchars($tagline) ?>" />
+  <meta property="og:url" content="<?= htmlspecialchars($site_url) ?>/" />
+  <meta property="og:image" content="<?= htmlspecialchars($site_url) ?>/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
   <title><?= htmlspecialchars($name) ?> — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

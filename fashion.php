@@ -1,6 +1,8 @@
 <?php
 // ── Fashion page configuration — edit these to personalize ───────────
 $name = "JCL";
+// TODO — set this to your public URL after hosting
+$site_url = "http://localhost:8000";
 
 // 3 fits per month. Put photos in an images/ folder, e.g. "images/fit1.jpg"
 $outfits = [
@@ -37,6 +39,14 @@ $year = date("Y");
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Favorite outfit combinations by <?= htmlspecialchars($name) ?>" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<?= htmlspecialchars($name) ?> — Fashion" />
+  <meta property="og:description" content="Favorite outfit combinations — 3 fits a month." />
+  <meta property="og:url" content="<?= htmlspecialchars($site_url) ?>/fashion.php" />
+  <meta property="og:image" content="<?= htmlspecialchars($site_url) ?>/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
   <title><?= htmlspecialchars($name) ?> — Fashion</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -1,6 +1,8 @@
 <?php
 // ── Demo / WIP page configuration — edit these to personalize ────────
 $name = "JCL";
+// TODO — set this to your public URL after hosting
+$site_url = "http://localhost:8000";
 
 // status: e.g. "idea", "WIP", "almost done"
 // link:   SoundCloud secret link works fine for private WIP tracks
@@ -35,6 +37,14 @@ $year = date("Y");
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Demos and works in progress by <?= htmlspecialchars($name) ?>" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<?= htmlspecialchars($name) ?> — Demos & WIP" />
+  <meta property="og:description" content="Tracks and projects in progress by <?= htmlspecialchars($name) ?>." />
+  <meta property="og:url" content="<?= htmlspecialchars($site_url) ?>/demo.php" />
+  <meta property="og:image" content="<?= htmlspecialchars($site_url) ?>/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
   <title><?= htmlspecialchars($name) ?> — Demos</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
