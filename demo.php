@@ -10,19 +10,19 @@ $demos = [
     [
         "title"       => "TODO — Demo 1",
         "status"      => "WIP",
-        "description" => "What this experiment is about, in one or two sentences.",
+        "description" => "Something to take of for your journey, again heavy percussions but a lead that will pierce your heart, this was meant to make your night hit harder.",
         "link"        => "TODO — SoundCloud (secret) link",
     ],
     [
         "title"       => "TODO — Demo 2",
-        "status"      => "idea",
-        "description" => "What this experiment is about, in one or two sentences.",
+        "status"      => "WIP",
+        "description" => "heavy percussions with a nice groove to the kick, i wanted to make this track to prove people that techno still has groove to it.",
         "link"        => "TODO — SoundCloud (secret) link",
     ],
     [
         "title"       => "TODO — Demo 3",
         "status"      => "WIP",
-        "description" => "What this experiment is about, in one or two sentences.",
+        "description" => "A Groovy night starter, something to open your set with.",
         "link"        => "#",
     ],
 ];

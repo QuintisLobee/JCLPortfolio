@@ -7,24 +7,24 @@ $site_url = "http://localhost:8000";
 // 3 fits per month. Put photos in an images/ folder, e.g. "images/fit1.jpg"
 $outfits = [
     [
-        "title"       => "TODO — Outfit 1",
+        "title"       => "Skulls & cargo",
         "month"       => "November 2026",
-        "description" => "The pieces and why this combo works.",
-        "image"       => "",
+        "description" => "Oversized skull-print sweater over a dark tee, washed camo cargo pants and tan boots. RMB Cargo's With WASTED Sweater.",
+        "image"       => "images/fit1.jpg",
         "link"        => "https://www.instagram.com/quintisjcl/",
     ],
     [
-        "title"       => "TODO — Outfit 2",
+        "title"       => "Dragon print & cap",
         "month"       => "November 2026",
-        "description" => "The pieces and why this combo works.",
-        "image"       => "",
+        "description" => "Trying to combine different textures here, Shirt by Ed Hardy, pants by RMB.",
+        "image"       => "images/fit2.jpg",
         "link"        => "https://www.instagram.com/quintisjcl/",
     ],
     [
-        "title"       => "TODO — Outfit 3",
+        "title"       => "All black everything",
         "month"       => "November 2026",
-        "description" => "The pieces and why this combo works.",
-        "image"       => "",
+        "description" => "Feel like winter isnt finished without an all black fit. Shirt by archivis, pants by RMB, and some accessories to top it off.",
+        "image"       => "images/fit3.jpg",
         "link"        => "https://www.instagram.com/quintisjcl/",
     ],
 ];
